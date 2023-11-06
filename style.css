@@ -12,3 +12,16 @@
 body {
   font-size: 1.6rem;
 }
+
+header,
+footer {
+  display: flex;
+  background: var(--brand-colors-explorer-dark, #065e7c);
+}
+
+footer {
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  padding: 1.6rem;
+}
